@@ -1,15 +1,41 @@
 /* Main Body Paragraphs */
 
 
+main {
 
+    width: 47%;
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+
+}
+
+main section {
+    background-image: url("lab-assets/list-bg.png");
+}
+
+
+ul {
+    display: inline-block;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+
+img.line {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 
 /* Footer Body */
 
 footer {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 46%;
+    margin-left: 26.5%;
+    margin-right: 26.5%;
 }
 
 footer section img {
@@ -25,6 +51,10 @@ h3 {
     margin-bottom: 10px;
 }
 
+footer section p {
+    font-size: 20px;
+}
+
 footer button {
     float: right;
     border: none;
@@ -36,7 +66,7 @@ footer button {
     transition: 350ms;
     cursor: pointer;
     margin: -15px;
-    margin-left: 25px;;
+    margin-left: 15px;
 }
 
 footer button:hover {
