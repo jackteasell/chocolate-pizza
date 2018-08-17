@@ -1,34 +1,27 @@
-
 /* Main Body Paragraphs */
 
-
 main {
-
-    width: 47%;
-    margin-left: 26.5%;
-    margin-right: 26.5%;
-
+  width: 47%;
+  margin-left: 26.5%;
+  margin-right: 26.5%;
 }
 
 main section {
-    background-image: url("lab-assets/list-bg.png");
+  background-image: url('lab-assets/list-bg.png');
 }
 
-
 ul {
-    display: inline-block;
+  display: inline-block;
 }
 
 li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
-
 img.line {
-    width: 100%;
-    margin-bottom: 20px;
-=======
+  width: 100%;
+  margin-bottom: 20px;
+}
 /* HEADER */
 header {
   margin: 0% 25% 0% 25%;
@@ -45,9 +38,10 @@ header h5 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8px;
   color: #888;
-
 }
-
+.pizza {
+  width: 100%;
+}
 .icons {
   float: right;
   margin-bottom: 20px;
@@ -61,10 +55,9 @@ header h5 {
 /* Footer Body */
 
 footer {
-
-    width: 46%;
-    margin-left: 26.5%;
-    margin-right: 26.5%;
+  width: 46%;
+  margin-left: 26.5%;
+  margin-right: 26.5%;
 }
 
 footer section img {
@@ -80,21 +73,20 @@ h3 {
 }
 
 footer section p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 footer button {
-
-    float: right;
-    border: none;
-    font-size: 18px;
-    color: white;
-    background: rgb(202, 15, 15);
-    padding: 10px 30px;
-    border-radius: 3px;
-    transition: 350ms;
-    cursor: pointer;
-    margin: -15px;
+  float: right;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background: rgb(202, 15, 15);
+  padding: 10px 30px;
+  border-radius: 3px;
+  transition: 350ms;
+  cursor: pointer;
+  margin: -15px;
 }
 
 footer button:hover {
