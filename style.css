@@ -1,3 +1,4 @@
+
 /* Main Body Paragraphs */
 
 
@@ -27,28 +28,55 @@ li {
 img.line {
     width: 100%;
     margin-bottom: 20px;
+=======
+/* HEADER */
+header {
+  margin: 0% 25% 0% 25%;
+}
+.logo {
+  display: inline-block;
+}
+header h1 {
+  display: inline;
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-size: 30px;
+}
+header h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  color: #888;
+
 }
 
+.icons {
+  float: right;
+  margin-bottom: 20px;
+}
+.divider {
+  width: 50.2%;
+  margin: 0% 25% 0% 25%;
+}
+/* Main Body Paragraphs */
 
 /* Footer Body */
 
 footer {
+
     width: 46%;
     margin-left: 26.5%;
     margin-right: 26.5%;
 }
 
 footer section img {
-    float: left;
-    margin-bottom: 25px;
-    margin-right: 15px;
+  float: left;
+  margin-bottom: 25px;
+  margin-right: 15px;
 }
 
-
 h3 {
-    font-weight: bolder;
-    font-size: large;
-    margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: 10px;
 }
 
 footer section p {
@@ -56,6 +84,7 @@ footer section p {
 }
 
 footer button {
+
     float: right;
     border: none;
     font-size: 18px;
@@ -66,26 +95,24 @@ footer button {
     transition: 350ms;
     cursor: pointer;
     margin: -15px;
-    margin-left: 15px;
 }
 
 footer button:hover {
-    background: green;
+  background: green;
 }
 
-
 footer div {
-    margin: 100px;
+  margin: 100px;
 }
 
 footer div img {
-    widows: 31px;
-    margin-left: 47%;
-    margin-bottom: 30px;
+  widows: 31px;
+  margin-left: 47%;
+  margin-bottom: 30px;
 }
 
 footer div p {
-    margin-left: 50;
-    color: grey;
-    text-align: center;
+  margin-left: 50;
+  color: grey;
+  text-align: center;
 }
