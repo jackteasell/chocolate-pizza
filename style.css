@@ -1,8 +1,6 @@
 /* HEADER */
-
 header {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: 0% 25% 0% 25%;
 }
 .logo {
   float: left;
@@ -11,6 +9,14 @@ header h1 {
   font-family: 'Oleo Script', Helvetica, sans-serif;
   font-size: 30px;
 }
+header h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  color: #888;
+}
 header li {
-  float: right;
+  display: inline-block;
+}
+header ul {
+  margin-left: 60%;
 }
