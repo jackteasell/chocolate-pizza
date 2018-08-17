@@ -3,7 +3,7 @@ header {
   margin: 0% 25% 0% 25%;
 }
 .logo {
-  float: left;
+  display: inline-block;
 }
 header h1 {
   font-family: 'Oleo Script', Helvetica, sans-serif;
@@ -14,13 +14,10 @@ header h5 {
   font-size: 8px;
   color: #888;
 }
-header li {
-  display: inline-block;
-}
-header ul {
-  margin-left: 60%;
-}
 
+.icons {
+  float: right;
+}
 /* Main Body Paragraphs */
 
 /* Footer Body */
