@@ -6,6 +6,7 @@ header {
   display: inline-block;
 }
 header h1 {
+  display: inline;
   font-family: 'Oleo Script', Helvetica, sans-serif;
   font-size: 30px;
 }
@@ -17,6 +18,11 @@ header h5 {
 
 .icons {
   float: right;
+  margin-bottom: 20px;
+}
+.divider {
+  width: 50.2%;
+  margin: 0% 25% 0% 25%;
 }
 /* Main Body Paragraphs */
 
